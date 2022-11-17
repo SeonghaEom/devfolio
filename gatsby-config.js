@@ -1,21 +1,21 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://seonghaeom.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Seongha Eom',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Seongha Eom | MS Student at KAIST AI`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `doubleb@kaist.ac.kr`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@sunghaa2`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/SeonghaEom`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/seongha-eom-4354b4228/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I am a MS student at OSI Lab in KAIST AI. My research interest is in computer vision and transfer learning, and data imbalance. Currently, my research topic is an efficient transfer learning method in multi-label classification. I try to achieve both efficiency and performance which is challenging but interesting. I believe considering the trade-offs helps solving practical problems of applying ML/DL models in various real-world settings.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
