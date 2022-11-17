@@ -5,31 +5,33 @@ import React from 'react';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SectionAbout from '../components/section-about';
-import SectionBlog from '../components/section-blog';
-import SectionExperience from '../components/section-experience';
+// import SectionBlog from '../components/section-blog';
 import SectionProjects from '../components/section-projects';
-import SectionSkills from '../components/section-skills';
+import SectionResearch from '../components/section-research';
+import SectionAwards from '../components/section-awards';
 import SEO from '../components/seo';
 
 const Index = ({ data }) => {
   const about = get(data, 'site.siteMetadata.about', false);
-  const projects = get(data, 'site.siteMetadata.projects', false);
+  const researches = get(data, 'site.siteMetadata.researches', false);
   const posts = data.allMarkdownRemark.edges;
-  const experience = get(data, 'site.siteMetadata.experience', false);
-  const skills = get(data, 'site.siteMetadata.skills', false);
+  const projects = get(data, 'site.siteMetadata.projects', false);
+  const awards = get(data, 'site.siteMetadata.awards', false);
   const noBlog = !posts || !posts.length;
-
+  console.log(researches,  researches.length )
   return (
     <Layout>
       <SEO />
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
       {about && <SectionAbout about={about} />}
-      {projects && projects.length && <SectionProjects projects={projects} />}
-      {!noBlog && <SectionBlog posts={posts} />}
-      {experience && experience.length && (
-        <SectionExperience experience={experience} />
+      {researches && researches.length && (
+        <SectionResearch researches={researches} />
       )}
-      {skills && skills.length && <SectionSkills skills={skills} />}
+      {/* {!noBlog && <SectionBlog posts={posts} />} */}
+      {projects && projects.length && (
+        <SectionProjects projects={projects} />
+      )}
+      {awards && awards.length && <SectionAwards awards={awards} />}
     </Layout>
   );
 };
@@ -52,12 +54,12 @@ export const pageQuery = graphql`
           description
           link
         }
-        experience {
+        researches {
           name
           description
           link
         }
-        skills {
+        awards {
           name
           description
         }

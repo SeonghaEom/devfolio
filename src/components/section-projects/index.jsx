@@ -8,12 +8,12 @@ const SectionProjects = ({ projects }) => {
 
   return (
     <Section title="Projects">
-      {projects.map((project) => (
+      {projects.map((item) => (
         <SummaryItem
-          key={project.name}
-          name={project.name}
-          description={project.description}
-          link={project.link}
+          key={item.name}
+          name={item.name}
+          description={item.description}
+          link={item.link}
         />
       ))}
     </Section>

@@ -17,7 +17,7 @@ module.exports = {
     // Content of the About Me section
     about: `I am a MS student at OSI Lab in KAIST AI. My research interest is in computer vision and transfer learning, and data imbalance. Currently, my research topic is an efficient transfer learning method in multi-label classification. I try to achieve both efficiency and performance which is challenging but interesting. I believe considering the trade-offs helps solving practical problems of applying ML/DL models in various real-world settings.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
+    researches: [
       {
         name: 'Layover Intermediate Layer for Multi-Label Classification in Efficient Transfer Learning',
         description:
@@ -32,7 +32,7 @@ module.exports = {
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
+    projects: [
       {
         name: 'Detection and prediction model for infectious disease',
         description: 'Supported by Institute for Security Convergence Research (ISCR), Developed detection model for epidemic prevention framework , Feb 2022 – Dec 2022',
@@ -45,7 +45,7 @@ module.exports = {
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
-    skills: [
+    awards: [
       {
         name: '초거대 인공지능 API 의료 분야 적용 아이디어 경진대회  ',
         description:

@@ -76,8 +76,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       linkedin: String
       about: String
       projects: [SectionItem]
-      experience: [SectionItem]
-      skills: [SectionItem]
+      researches: [SectionItem]
+      awards: [SectionItem]
     }
 
     type SectionItem {
