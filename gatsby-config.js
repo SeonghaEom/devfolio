@@ -19,57 +19,41 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Layover Intermediate Layer for Multi-Label Classification in Efficient Transfer Learning',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'This paper achieves efficient transfer learning by utilizing intermediate representation and feature extracted from pre-trained network for multi-label classification',
+        link: 'https://openreview.net/forum?id=mbOHmKLxBH',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'REAL-TIME AND EXPLAINABLE DETECTION OF EPIDEMICS WITH GLOBAL NEWS DATA',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'This paper achieves early detection of epidemics, including COVID-19, by processing real-time accessible global news data into graphs and retreive explainable information',
+        link: 'https://proceedings.mlr.press/v184/kim22a.html',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Detection and prediction model for infectious disease',
+        description: 'Supported by Institute for Security Convergence Research (ISCR), Developed detection model for epidemic prevention framework , Feb 2022 – Dec 2022',
+        link: 'https://github.com/sungnyun/epidemic-modeling',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Server Manager',
+        description: 'Support for setting environments and managing resources for shared lab servers, November 2021 - August 2022',
+        link: 'https://drive.google.com/file/d/15lMCB79GhSl6uUgO0bzryKwV7UOcuqBv/view?usp=sharing',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: '초거대 인공지능 API 의료 분야 적용 아이디어 경진대회  ',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Hosted by NAVER Cloud, 6th place, Sept 2022',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
-      },
-      {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+        name: '2022 Neurips Weather4cast Challenge',
+        description: 'Hosted by IARAI(Institute of advanced research in artificial intelligence, ends at Nov 2022',
       },
     ],
   },
