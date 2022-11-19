@@ -27,7 +27,7 @@ module.exports = {
       {
         name: 'Real-time and Explainable Detection of Epidemics with Global News Data',
         description:
-          'This paper achieves early detection of epidemics, including COVID-19, by processing real-time global news data into graph clusters and retreive explainable information',
+          'This paper achieves early detection of epidemics, including COVID-19, by processing real-time global news data into graph clusters and retrieving explainable information with efficacy',
         link: 'https://proceedings.mlr.press/v184/kim22a.html',
       },
     ],
@@ -49,11 +49,11 @@ module.exports = {
       {
         name: '초거대 인공지능 API 의료 분야 적용 아이디어 경진대회  ',
         description:
-          'Hosted by NAVER Cloud, 6th place, Sept 2022',
+          'Hosted by NAVER Cloud, HyperCLOVA, 6th place, Sept 2022',
       },
       {
         name: '2022 Neurips Weather4cast Challenge',
-        description: 'Hosted by IARAI(Institute of advanced research in artificial intelligence, ends at Nov 2022',
+        description: 'Hosted by IARAI(Institute of Advanced Research in artificial Intelligence), ends at Nov 2022',
       },
     ],
   },
