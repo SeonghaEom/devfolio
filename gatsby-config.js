@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://drive.google.com/file/d/1F3GxFVYS2ZsVzVVhuLWIeLYas4zZp3Vs/view?usp=sharing`,
     // Content of the About Me section
-    about: `I am a MS student at OSI Lab(advised by Prof. Se-young Yun) in KAIST AI. My research interests are in computer vision and transfer learning, and data imbalance. Currently, my research topic is an efficient transfer learning method in multi-label classification. I try to achieve both efficiency and performance which is challenging but interesting. I believe considering the trade-offs helps solving practical problems of applying ML/DL models in various real-world tasks.`,
+    about: `I am a MS student at OSI Lab(advised by Prof. Se-young Yun) in KAIST AI. My research interests are in computer vision, transfer learning, and representation learning. Currently, my research topic is an efficient transfer learning method in multi-label classification. I try to achieve both efficiency and performance which is challenging but interesting. I believe considering the trade-offs helps solving practical problems of applying ML/DL models in various real-world tasks.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     researches: [
       {
