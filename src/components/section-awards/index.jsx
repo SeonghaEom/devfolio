@@ -11,6 +11,7 @@ const SectionAwards = ({ awards }) => {
           key={award.name}
           name={award.name}
           description={award.description}
+          link={award.link}
         />
       ))}
     </Section>

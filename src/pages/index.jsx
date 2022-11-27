@@ -62,6 +62,7 @@ export const pageQuery = graphql`
         awards {
           name
           description
+          link
         }
       }
     }

@@ -50,10 +50,12 @@ module.exports = {
         name: '초거대 인공지능 API 의료 분야 적용 아이디어 경진대회 (6위)  ',
         description:
           'Hosted by NAVER Cloud, HyperCLOVA, Sept 2022',
+        link: '',
       },
       {
         name: '2022 Neurips Weather4cast Challenge (4th place)',
         description: 'Hosted by IARAI(Institute of Advanced Research in artificial Intelligence), just accepted at Weather4cast 2022 Workshop at the NeurIPS 2022 Competition Track!',
+        link: 'https://github.com/hyeonjeong1/22-Neurips-Competition-Baseline/tree/se',
       },
     ],
   },
