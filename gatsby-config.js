@@ -53,7 +53,7 @@ module.exports = {
       },
       {
         name: '2022 Neurips Weather4cast Challenge',
-        description: 'Hosted by IARAI(Institute of Advanced Research in artificial Intelligence), ends at Nov 2022',
+        description: 'Hosted by IARAI(Institute of Advanced Research in artificial Intelligence), 4th place, just accepted at Weather4cast 2022 Workshop at the NeurIPS 2022 Competition Track!',
       },
     ],
   },
